@@ -116,6 +116,6 @@ cd grabNgo
 ## 🔐 Accounts Autofill Credentials (For Quick Testing)
 
 During development, you can use the **Autofill** buttons on the Login page to instantly test different access levels:
-* **Admin Profile:** `saikoushik510@gmail.com` / `Koushik@123`
+* **Admin Profile:** `saikoushik510@gmail.com` / ``
 * **Shop Owner Profile:** `owner@grabngo.com` / `Password123`
 * **Customer Profile:** `customer@grabngo.com` / `Password123`
