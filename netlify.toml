@@ -1,0 +1,15 @@
+[build]
+  # The directory (relative to the repository root) where Netlify should run build commands
+  base = "client"
+
+  # The command Netlify runs to build the project
+  command = "npm run build"
+
+  # The directory that contains the deploy-ready static files
+  publish = "dist"
+
+# Redirects rule for single page apps (handles React Router routes on reload)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
