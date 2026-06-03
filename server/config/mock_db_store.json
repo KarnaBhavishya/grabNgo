@@ -1,0 +1,243 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Koushik",
+      "email": "saikoushik510@gmail.com",
+      "mobile": "9999999999",
+      "password": "$2a$10$5M7UcF1utRpwhR0Z.7MHbeqW94zi4tSgxwFmupoueMBytUV6IW.QS",
+      "role": "admin",
+      "is_verified": 1,
+      "is_active": 1
+    },
+    {
+      "id": 2,
+      "name": "Fresh Mart Owner",
+      "email": "owner@grabngo.com",
+      "mobile": "8888888888",
+      "password": "$2a$10$sYlWcsGGCCTBX3GzBw.6YeDIyRXlXX6Jhlxv78jxgpCBzxjtjV/GS",
+      "role": "shopowner",
+      "is_verified": 1,
+      "is_active": 1
+    },
+    {
+      "id": 3,
+      "name": "John Customer",
+      "email": "customer@grabngo.com",
+      "mobile": "7777777777",
+      "password": "$2a$10$sYlWcsGGCCTBX3GzBw.6YeDIyRXlXX6Jhlxv78jxgpCBzxjtjV/GS",
+      "role": "customer",
+      "is_verified": 1,
+      "is_active": 1
+    }
+  ],
+  "addresses": [
+    {
+      "id": 1,
+      "user_id": 3,
+      "label": "Home",
+      "address": "123 Main St, Tech City",
+      "city": "Tech City",
+      "pincode": "560001",
+      "lat": 12.9716,
+      "lng": 77.5946,
+      "is_default": 1
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Grocery",
+      "icon": "🛒",
+      "is_active": 1
+    },
+    {
+      "id": 2,
+      "name": "Bakery",
+      "icon": "🍞",
+      "is_active": 1
+    },
+    {
+      "id": 3,
+      "name": "Pharmacy",
+      "icon": "💊",
+      "is_active": 1
+    },
+    {
+      "id": 4,
+      "name": "Vegetables",
+      "icon": "🥦",
+      "is_active": 1
+    },
+    {
+      "id": 5,
+      "name": "Dairy",
+      "icon": "🥛",
+      "is_active": 1
+    },
+    {
+      "id": 6,
+      "name": "Meat",
+      "icon": "🥩",
+      "is_active": 1
+    },
+    {
+      "id": 7,
+      "name": "General",
+      "icon": "🏪",
+      "is_active": 1
+    }
+  ],
+  "shops": [
+    {
+      "id": 1,
+      "owner_id": 2,
+      "category_id": 1,
+      "name": "Fresh Mart Grocery",
+      "description": "Your one-stop organic grocery and household shop.",
+      "shop_photo": "https://images.unsplash.com/photo-1542838132-92c53300491e?w=500&q=80",
+      "mobile": "8888888888",
+      "address": "22 Tech Park Road, Sector 4",
+      "city": "Bengaluru",
+      "pincode": "560001",
+      "lat": 12.9722,
+      "lng": 77.595,
+      "open_time": "09:00:00",
+      "close_time": "21:00:00",
+      "working_days": "Mon,Tue,Wed,Thu,Fri,Sat,Sun",
+      "is_open": 1,
+      "has_delivery": 1,
+      "payment_online": 1,
+      "payment_cash": 1,
+      "rating": 4.5,
+      "total_reviews": 12,
+      "is_approved": 1,
+      "is_active": 1
+    },
+    {
+      "id": 2,
+      "owner_id": 2,
+      "category_id": 2,
+      "name": "Golden Crust Bakery",
+      "description": "Freshly baked breads, pastries, and custom cakes.",
+      "shop_photo": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=500&q=80",
+      "mobile": "8888888888",
+      "address": "15 High Street, Malleswaram",
+      "city": "Bengaluru",
+      "pincode": "560003",
+      "lat": 12.975,
+      "lng": 77.59,
+      "open_time": "08:00:00",
+      "close_time": "22:00:00",
+      "working_days": "Mon,Tue,Wed,Thu,Fri,Sat",
+      "is_open": 1,
+      "has_delivery": 0,
+      "payment_online": 1,
+      "payment_cash": 1,
+      "rating": 4.8,
+      "total_reviews": 28,
+      "is_approved": 1,
+      "is_active": 1
+    },
+    {
+      "id": 3,
+      "owner_id": 2,
+      "category_id": 3,
+      "name": "Wellness Pharmacy",
+      "description": "Prescription medicines and general healthcare items.",
+      "shop_photo": "https://images.unsplash.com/photo-1586015555751-63bb77f4322a?w=500&q=80",
+      "mobile": "8888888888",
+      "address": "77 Clinic Lane, Indiranagar",
+      "city": "Bengaluru",
+      "pincode": "560038",
+      "lat": 12.96,
+      "lng": 77.64,
+      "open_time": "24 Hours",
+      "close_time": "24 Hours",
+      "working_days": "Mon,Tue,Wed,Thu,Fri,Sat,Sun",
+      "is_open": 1,
+      "has_delivery": 1,
+      "payment_online": 1,
+      "payment_cash": 1,
+      "rating": 4.2,
+      "total_reviews": 8,
+      "is_approved": 0,
+      "is_active": 1
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "shop_id": 1,
+      "name": "Organic Fresh Bananas",
+      "description": "Sweet local organic yellow bananas, farm fresh.",
+      "price": 49,
+      "stock": 150,
+      "unit": "kg",
+      "image": "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?w=300&q=80",
+      "is_available": 1
+    },
+    {
+      "id": 2,
+      "shop_id": 1,
+      "name": "Basmati Rice Premium",
+      "description": "Long grain, highly aromatic aged basmati rice.",
+      "price": 120,
+      "stock": 45,
+      "unit": "kg",
+      "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?w=300&q=80",
+      "is_available": 1
+    },
+    {
+      "id": 3,
+      "shop_id": 1,
+      "name": "Farm Eggs Box",
+      "description": "Pack of 12 clean farm-fresh protein-rich brown eggs.",
+      "price": 80,
+      "stock": 30,
+      "unit": "piece",
+      "image": "https://images.unsplash.com/photo-1506976785307-8732e854ad03?w=300&q=80",
+      "is_available": 1
+    },
+    {
+      "id": 4,
+      "shop_id": 1,
+      "name": "Cold Pressed Coconut Oil",
+      "description": "100% natural cooking oil, 1 litre bottle.",
+      "price": 240,
+      "stock": 20,
+      "unit": "litre",
+      "image": "https://images.unsplash.com/photo-1614749514827-7f55b91a1fb3?w=300&q=80",
+      "is_available": 1
+    },
+    {
+      "id": 5,
+      "shop_id": 2,
+      "name": "Fresh Sourdough Bread",
+      "description": "Classic crusty artisan sourdough made daily.",
+      "price": 90,
+      "stock": 15,
+      "unit": "piece",
+      "image": "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?w=300&q=80",
+      "is_available": 1
+    },
+    {
+      "id": 6,
+      "shop_id": 2,
+      "name": "Chocolate Ganache Pastry",
+      "description": "Rich Belgian chocolate mousse layers.",
+      "price": 75,
+      "stock": 8,
+      "unit": "piece",
+      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=300&q=80",
+      "is_available": 1
+    }
+  ],
+  "orders": [],
+  "order_items": [],
+  "order_timeline": [],
+  "payments": [],
+  "reviews": [],
+  "notifications": [],
+  "otps": []
+}
